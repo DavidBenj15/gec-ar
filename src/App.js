@@ -5,8 +5,8 @@ import BottomTab from './components/BottomTab';
 
 function App() {
   return (
-    <div className="flex bg-slate-800 h-screen">
-      {/* <ModelViewer modelSource={'models/chair1.glb'}/> */}
+    <div className="flex justify-center bg-slate-800 h-screen">
+      <ModelViewer modelSource={'models/chair2.glb'}/>
       <BottomTab />
     </div>
   );

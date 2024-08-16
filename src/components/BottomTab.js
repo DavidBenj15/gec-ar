@@ -13,8 +13,8 @@ const BottomTab = () => {
                         bg-gradient-to-tr from-darkOrange to-lightOrange
                         ${isExpanded ? 'h-64' : 'h16'}`}>
             <div className='flex justify-around py-4'>
-                <button className='tabItem' onClick={toggleTab}>
-                    <span className='material-icons'>View more styles</span>
+                <button onClick={toggleTab}>
+                    <p className='font-bold text-lg text-slate-900'>{isExpanded ? 'Hide styles' : 'View more styles'}</p>
                 </button>
             </div>
             <BottomTabContent visible={isExpanded}/>

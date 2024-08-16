@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Chair 1",
+        "file": "chair1.glb",
+        "preview": "chair1.png"
+    },
+    {
+        "name": "Chair 2",
+        "file": "chair2.glb",
+        "preview": "chair2.png"
+    }
+]
