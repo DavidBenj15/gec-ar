@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import ModelViewer from './components/ModelViewer';
 import BottomTab from './components/BottomTab';
 
 function App() {
+  const [model, setModel] = useState('chair1.glb');
+
   return (
     <div className="flex justify-center bg-slate-800 h-screen">
-      <ModelViewer modelSource={'models/chair2.glb'}/>
-      <BottomTab />
+      <ModelViewer modelSource={`models/${model}`} />
+      <BottomTab updateModel={setModel} />
     </div>
   );
 }

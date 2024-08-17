@@ -2,7 +2,7 @@ import '@google/model-viewer';
 
 const ModelViewer = ({ modelSource }) => {
   return (
-    <div className='w-2/3 h-lvh mt-10'>
+    <div className='w-2/3 h-lvh flex justify-center items-center'>
       <model-viewer
           src={modelSource}  // Path to your 3D model
           ar
