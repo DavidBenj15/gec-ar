@@ -1,6 +1,6 @@
 # GEC AR Ecommerce Prototype
 
-This React app uses Augmented Reality (AR) to let users view and compare online shopping products in the real world by using before purchasing them. The prototype is part of The Echelon Group's pitch for [Alibaba's 2024 Global E-Commerce Challenge](https://aidc-jobs.alibaba.com/GEC/index/program).
+This React app uses Augmented Reality (AR) to let users view and compare E-commerce products in the real world before committing to a purchase. The prototype is part of The Echelon Group's pitch for [Alibaba's 2024 Global E-Commerce Challenge](https://aidc-jobs.alibaba.com/GEC/index/program).
 
 ## Try It Out!
 
