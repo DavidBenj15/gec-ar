@@ -7,12 +7,11 @@ const NavBar = () => {
         <button onClick={() => {console.log('I am a fake button')}}
             className='ml-5 fixed left-0'    
         >
-            <FiMenu className='size-10'/>
+            <FiMenu className='size-10 '/>
         </button>
         <img src='lazadaLogo.svg' alt='Lazada logo'
             className='size-10'    
         />
-
     </div>
   )
 }
