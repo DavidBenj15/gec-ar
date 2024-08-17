@@ -9,7 +9,7 @@ const BottomTab = ({ updateModel }) => {
     };
 
     return (
-        <div className={`fixed bottom-0 left-0 w-full shadow-lg transition-all ease-in-out rounded-lg
+        <div className={`fixed bottom-0 left-0 w-full shadow-lg transition-all ease-in-out rounded-t-lg
                         bg-gradient-to-tr from-darkOrange to-lightOrange
                         ${isExpanded ? 'h-64' : 'h-16'}`}>
             <div className='flex justify-around py-4'>
