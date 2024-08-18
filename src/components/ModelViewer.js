@@ -1,6 +1,11 @@
 import '@google/model-viewer';
+import React, { useEffect } from 'react';
 
 const ModelViewer = ({ modelSource }) => {
+  useEffect(() => {
+    console.log(modelSource)
+  }, [modelSource])
+
   return (
     <div className='w-2/3 h-lvh -mt-36 flex justify-center items-center'>
       <model-viewer

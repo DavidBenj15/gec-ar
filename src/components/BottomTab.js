@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BottomTabContent from './BottomTabContent';
 
-const BottomTab = ({ updateModel }) => {
+const BottomTab = ({ updateProduct, currentProduct }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleTab = () => {
@@ -19,7 +19,7 @@ const BottomTab = ({ updateModel }) => {
                     </p>
                 </button>
             </div>
-            <BottomTabContent visible={isExpanded} updateModel={updateModel}/>
+            <BottomTabContent visible={isExpanded} updateProduct={updateProduct} currentProduct={currentProduct}/>
         </div>
     );
 }

@@ -1,12 +1,17 @@
 [
     {
-        "name": "Chair 1",
-        "file": "chair1.glb",
-        "preview": "chair1.png"
+        "name": "Red",
+        "file": "gamingChair1.glb",
+        "preview": "gamingChair1.png"
     },
     {
-        "name": "Chair 2",
-        "file": "chair2.glb",
-        "preview": "chair2.png"
+        "name": "White",
+        "file": "gamingChair2.glb",
+        "preview": "gamingChair2.png"
+    },
+    {
+        "name": "Blue",
+        "file": "gamingChair3.glb",
+        "preview": "gamingChair3.png"
     }
 ]
