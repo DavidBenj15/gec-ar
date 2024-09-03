@@ -12,15 +12,10 @@ const BottomTab = ({ updateProduct, currentProduct }) => {
         <div className={`fixed bottom-0 left-0 w-full shadow-lg transition-all ease-in-out rounded-t-lg
                         bg-gradient-to-tr from-darkOrange to-lightOrange
                         ${isExpanded ? 'h-64' : 'h-16'}`}>
-        {/* // <div className={`fixed bottom-0 left-0 w-full shadow-lg transition-all ease-in-out rounded-t-lg
-        //                 bg-slate-900
-        //                 ${isExpanded ? 'h-64' : 'h-16'}`}> */}
             <div className='flex justify-around py-4'>
                 <button onClick={toggleTab}>
                     <p className='font-bold text-lg text-slate-900 underline decoration-2'>
                         {isExpanded ? 'Hide styles' : 'View more styles'}
-                    {/* <p className='font-bold text-lg text-slate-50 underline decoration-2'>
-                        {isExpanded ? 'Hide styles' : 'View more styles'} */}
                     </p>
                 </button>
             </div>

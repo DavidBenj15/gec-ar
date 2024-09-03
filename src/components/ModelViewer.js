@@ -1,7 +1,11 @@
 import '@google/model-viewer';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
-const ModelViewer = ({ modelSource }) => {
+const ModelViewer = ({ modelSource, scale }) => {
+  useEffect(() => {
+    console.log(scale);
+  }, [scale]);
+  
   return (
     <div className='w-2/3 h-lvh -mt-36 flex justify-center items-center'>
       <model-viewer
@@ -13,7 +17,7 @@ const ModelViewer = ({ modelSource }) => {
           ar-scale="auto"  // Adjusts scale automatically in AR mode
           xr-environment  // Enables the use of an external environment for AR
           alt="A 3D model for AR"
-          scale="0.04 0.04 0.04"
+          scale={scale}
           style={{ width: '100%', height: '500px' }}
         >
       </model-viewer> 

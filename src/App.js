@@ -8,7 +8,8 @@ import PoweredByEch from './components/PoweredByEch';
 function App() {
   const [product, setProduct] = useState({
     "name": "Red",
-    "modelSource": "gamingChair2.glb"
+    "modelSource": "gamingChair2.glb",
+    "scale": "0.04 0.04 0.04"
   });
 
   useEffect(() => {
@@ -21,9 +22,8 @@ function App() {
         <NavBar />
         <PoweredByEch />
       </div>
-      {/* <div className="flex justify-center bg-slate-100 h-screen"> */}
       <div className="flex justify-center bg-slate-800 h-screen">
-        <ModelViewer modelSource={`models/${product.modelSource}`} />
+        <ModelViewer modelSource={`models/${product.modelSource}`} scale={product.scale} />
         <BottomTab updateProduct={setProduct} currentProduct={product}/>
       </div>
     </>

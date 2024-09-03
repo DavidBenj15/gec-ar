@@ -20,7 +20,7 @@ const BottomTabContent = ({ visible, updateProduct, currentProduct }) => {
         <div className='overflow-hidden transition-all duration-300 ease-in-out px-4 flex justify-center size-full items-center'>
             {models.map((model, index) => (
                 <ProductButton name={model.name} model={model.file} image={model.preview}
-                    updateProduct={updateProduct} currentProduct={currentProduct}
+                    scale={model.scale} updateProduct={updateProduct} currentProduct={currentProduct}
                 />
             ))}
         </div>

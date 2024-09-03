@@ -2,16 +2,19 @@
     {
         "name": "Red",
         "file": "gamingChair1.glb",
-        "preview": "gamingChair1.png"
+        "preview": "gamingChair1.png",
+        "scale": "0.0025 0.0025 0.0025"
     },
     {
         "name": "White",
         "file": "gamingChair2.glb",
-        "preview": "gamingChair2.png"
+        "preview": "gamingChair2.png",
+        "scale": "0.04 0.04 0.04"
     },
     {
         "name": "Blue",
         "file": "gamingChair3.glb",
-        "preview": "gamingChair3.png"
+        "preview": "gamingChair3.png",
+        "scale": "1 1 1"
     }
 ]

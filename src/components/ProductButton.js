@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
-const ProductButton = ({ name, model, image, updateProduct, currentProduct }) => {
+const ProductButton = ({ name, model, image, updateProduct, currentProduct, scale }) => {
     const [clicked, setClicked] = useState(false)
 
     const handleClick = () => {
         setClicked(true);
         updateProduct({
             "name": name,
-            "modelSource": model
+            "modelSource": model,
+            "scale": scale
         });
         setTimeout(() => {
             setClicked(false);
