@@ -4,7 +4,7 @@ This React app uses Augmented Reality (AR) to let users view and compare E-comme
 
 ## Try It Out!
 
-Visit [gec-ar.vercel.app](gec-ar.vercel.app) to try it out for yourself!
+Visit [gec-ar.vercel.app](https://gec-ar.vercel.app/) to try it out for yourself!
 <p float="left">
     <img src="./resources/website-home.PNG" width="200" alt="Website home page">
     <img src="./resources/ar-example.PNG" width="200" alt="AR demonstration">
